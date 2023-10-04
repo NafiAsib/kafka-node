@@ -23,7 +23,7 @@ The app has the following structure:
 Please note that the following code in `producer.js` is used for creating command-line interfaces (CLIs) in Node.js, allowing users to input data interactively through the console.
 
 ```javascript
-çconst rl = readline.createInterface({
+const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout,
 });
